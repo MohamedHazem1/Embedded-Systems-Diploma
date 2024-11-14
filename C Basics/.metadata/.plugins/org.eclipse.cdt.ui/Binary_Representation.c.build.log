@@ -1,0 +1,5 @@
+03:47:50 **** Clean-only build of configuration Debug for project Binary_Representation.c ****
+rm -rf src/Binary_Representation.c.d src/Binary_Representation.c.o Binary_Representation.c.exe 
+
+03:47:50 Build Finished. 0 errors, 0 warnings. (took 115ms)
+

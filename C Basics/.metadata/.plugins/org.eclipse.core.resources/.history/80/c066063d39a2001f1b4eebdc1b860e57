@@ -1,0 +1,18 @@
+#include "stdio.h"
+
+void reverse_array(void);
+
+int main(){
+	reverse_array();
+	return 0;
+}
+
+void reverse_array(void){
+	int a[]={1,2,3,4,5,6};
+    int n = sizeof(a) / sizeof(a[0]);  // Correct way to find the number of elements
+    for (int i = n - 1; i >= 0; i--) {  // Start from the last index and decrement
+        printf("%d ", a[i]);            // Print with a space for readability
+    }
+
+	}
+}

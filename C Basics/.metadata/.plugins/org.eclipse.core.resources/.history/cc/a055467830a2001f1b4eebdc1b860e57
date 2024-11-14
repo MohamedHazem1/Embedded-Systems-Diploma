@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void dicimal2binary(int dec);
+void delete_bit();
+
+int main(void) {
+	int input;
+	printf("Please Enter The decimal number you want to convert\n");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&input);
+	dicimal2binary(input);
+	return 0;
+}
+
+
+void dicimal2binary(int dec){
+
+	int binary[32];
+	int i=0;
+	while (dec >0){
+			binary[i]=dec%2;
+			dec =dec/2;
+			i++;
+	}
+    for(int i = 0; i < sizeof(binary)/4 ; i++)
+       int temp[i] = binary[sizeof(binary)/4 - i - 1];
+}
+
+void delete_bit(int bit2delete){
+	extern int temp &= ~(1<<bit2delete);
+}

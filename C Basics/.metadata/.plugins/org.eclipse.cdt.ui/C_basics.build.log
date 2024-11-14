@@ -1,0 +1,7 @@
+00:36:39 **** Rebuild of configuration Debug for project C_basics ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o assignment1-1.o "..\\assignment1-1.c" 
+gcc -ansi -std=c89 -o C_basics.exe assignment1-1.o 
+
+00:36:40 Build Finished. 0 errors, 0 warnings. (took 372ms)
+

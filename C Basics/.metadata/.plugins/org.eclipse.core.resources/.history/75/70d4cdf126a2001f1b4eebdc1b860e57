@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : c.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+#include <stdio.h>
+#include <stdlib.h>
+int dicimal2binary();
+void d2b(int dec);
+int main(void) {
+	int input;
+	printf("Please Enter The decimal number you want to convert\n");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",&input);
+	d2b(input);
+	return 0;
+}
+
+
+void d2b(int dec){
+
+	int binary[32];
+	int i=0;
+	while (dec >0){
+		for (int i=0;i<31;i++){
+			binary[i]=dec%2;
+			dec =dec/2;
+		}
+	}
+	for (int j=i-1;j>=0;--j){
+		printf("%d",binary[j]);
+	}
+}
+
+int dicimal2binary(int dec){
+	char a0=dec%2;
+	char a1=a0%2;
+	char a2=a1%2;
+	char a3=a2%2;
+	printf("the binary representation is %d%d%d%d",a3,a2,a1,a0);
+	return 0;
+}

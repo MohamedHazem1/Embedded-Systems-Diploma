@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*void delete_bit();*/
+
+int main(void) {
+	int a=3;
+	printf("%d",0>>a);
+	return 0;
+}
+
+

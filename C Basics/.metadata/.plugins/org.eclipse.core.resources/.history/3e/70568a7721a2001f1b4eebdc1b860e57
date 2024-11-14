@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : c.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int input;
+	scanf("%d",&input);
+	dicimal2binary(input);
+	return 0;
+}
+
+
+
+
+int dicimal2binary(int dec){
+	char a0=dec%2;
+	char a1=a0%2;
+	char a2=a1%2;
+	char a3=a2%2;
+	printf("the binary representation is %d%d%d%d",a3,a2,a1,a0);
+	return 0;
+}

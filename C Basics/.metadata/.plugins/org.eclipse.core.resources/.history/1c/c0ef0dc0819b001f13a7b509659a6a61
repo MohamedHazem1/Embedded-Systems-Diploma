@@ -1,0 +1,18 @@
+/*
+ * assignment1-2.c
+ *
+ *  Created on: Nov 5, 2024
+ *      Author: Mohamed Hazem
+ */
+
+#include "stdio.h"
+int main_2(){
+	int x1=0;
+	printf("Enter an integer you want to check");
+	fflush(stdout);
+	scanf("%d",&x1);
+	printf("%d is",(x1%2==0?printf("Even"):(printf("odd"))));
+
+	return 0;
+
+}

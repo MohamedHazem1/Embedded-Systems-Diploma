@@ -1,0 +1,23 @@
+
+/*
+
+ * main.c
+ *
+ *  Created on: Nov 5 2024
+ *      Author: Mohamed Hazem*/
+
+
+#include "stdio.h"
+int task1_2(){
+	printf("**********Task 2**********\n");
+	printf("This Program to print the entered integer\n");
+    
+	int x=0;
+	printf("Enter an integer: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&x);
+	printf("You entered %d\n",x);
+
+	return 0;
+}
+

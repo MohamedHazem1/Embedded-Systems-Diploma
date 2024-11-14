@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*void delete_bit();*/
+
+int main(void) {
+	int a;
+	printf("Enter The number you want to modify\n");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&a);
+	int n=0;
+	a&=~(1<<n);
+	printf("%d",a);
+	return 0;
+}
+
+

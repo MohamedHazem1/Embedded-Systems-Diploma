@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:C_basics Debug,org.eclipse.launchbar.core.descriptorType.default\:New_configuration (1),org.eclipse.launchbar.core.descriptorType.default\:Assignmemt1_1 Debug,org.eclipse.launchbar.core.descriptorType.default\:Binary_Representation.c Debug,org.eclipse.launchbar.core.descriptorType.default\:Array_Index_Search.c Debug,org.eclipse.launchbar.core.descriptorType.default\:Deletespecificbit.c Debug,org.eclipse.launchbar.core.descriptorType.default\:Quiz_Functions Debug,org.eclipse.launchbar.core.descriptorType.default\:Reverse_array.c Debug,org.eclipse.launchbar.core.descriptorType.default\:Swapping_Arrays Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Array_Index_Search.c\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Array_Index_Search.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Assignmemt1_1\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Assignmemt1_1\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:C_basics\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:C_basics\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

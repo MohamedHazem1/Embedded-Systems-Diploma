@@ -1,0 +1,30 @@
+/*
+ * indexsearch.c
+ *
+ *  Created on: Nov 14, 2024
+ *      Author: Mohamed
+ */
+
+#include "stdio.h"
+int search(int a,int ary);
+int main(){
+	int arr[]={3,4,5,6,2,6,7,4,8,2,3,5,6,7,8,9,3,2};
+	search(3,arr);
+
+
+
+
+	return 0;
+}
+
+int search(int a,int ary[]){
+	int index;
+	for(int i =0;i<=(sizeof(ary)/4);i++){
+		if (ary[i]==3){
+			index=i;
+		}
+	}
+
+
+	return index;
+}

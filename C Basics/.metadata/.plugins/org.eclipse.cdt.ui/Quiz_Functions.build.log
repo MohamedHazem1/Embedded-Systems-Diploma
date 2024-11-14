@@ -1,0 +1,6 @@
+05:35:09 **** Incremental Build of configuration Debug for project Quiz_Functions ****
+Info: Internal Builder is used for build
+gcc -o Quiz_Functions.exe checkPowerof3.o 
+
+05:35:09 Build Finished. 0 errors, 0 warnings. (took 165ms)
+

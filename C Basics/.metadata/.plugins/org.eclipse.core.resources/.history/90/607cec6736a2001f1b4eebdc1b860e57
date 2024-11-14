@@ -1,0 +1,28 @@
+/*
+ * checkPowerof3.c
+ *
+ *  Created on: November 14, 2024
+ *      Author: Mohamed Hazem
+ */
+
+#include "stdio.h"
+#include "math.h"
+
+int powerof3();
+
+int main(){
+	int a=9;
+	printf("Enter The number you want to check whether its a power of 3 or not");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&a);
+	int x= powerof3(a);
+	printf("%d",x);
+	return 0;
+}
+
+int  powerof3(){
+	double sqrt(double arg);
+	extern int a;
+	int x=(int)sqrt(a)%3;
+	if (x){return 0;}else{return 1;}
+}

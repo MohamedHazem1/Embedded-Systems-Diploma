@@ -1,0 +1,24 @@
+/*
+ * Assignment1-2.c
+ *
+ *  Created on: Nov 5, 2024
+ *      Author: Mohamed Hazem
+ */
+
+#include "stdio.h"
+
+int main(){
+	int x=0;
+	printf("This program to check if the input is even or odd\n\n");
+	printf("Enter a number: ");
+	fflush(stdin),fflush(stdout);
+	scanf("%d",&x);
+	printf("%d is ",x,(x%2)==0?"Even":"odd");
+
+
+
+
+
+
+	return 0;
+}

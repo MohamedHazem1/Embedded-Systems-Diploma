@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Quiz_Functions/Reverse_array&apos; to &apos;Reverse_array.c&apos;" description="Rename resource &apos;Reverse_array&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Reverse_array" name="Reverse_array.c" stamp="1731554645657" updateReferences="true"/>
+</session>

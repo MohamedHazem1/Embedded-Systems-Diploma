@@ -1,0 +1,27 @@
+05:41:59 **** Incremental Build of configuration Debug for project Reverse_array.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Reverse_array.o "..\\Reverse_array.c" 
+..\Reverse_array.c: In function 'reverse_array':
+..\Reverse_array.c:16:55: warning: conversion lacks type at end of format [-Wformat=]
+   16 |     printf("hhhhhhhhhhhhhhhhhhhhhhhhhhhh size of (a) %l",sizeof(a));
+      |                                                       ^
+..\Reverse_array.c:16:12: warning: too many arguments for format [-Wformat-extra-args]
+   16 |     printf("hhhhhhhhhhhhhhhhhhhhhhhhhhhh size of (a) %l",sizeof(a));
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Reverse_array.c:17:58: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   17 |     printf("hhhhhhhhhhhhhhhhhhhhhhhhhhhh size of (a[0]) %d",sizeof(a[0]));
+      |                                                         ~^  ~~~~~~~~~~~~
+      |                                                          |  |
+      |                                                          |  long long unsigned int
+      |                                                          int
+      |                                                         %lld
+..\Reverse_array.c:18:57: warning: implicit declaration of function 'len' [-Wimplicit-function-declaration]
+   18 |     printf("hhhhhhhhhhhhhhhhhhhhhhhhhhhh len (a[0]) %d",len(a[0]));
+      |                                                         ^~~
+gcc -o Reverse_array.c.exe Reverse_array.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Reverse_array.o: in function `reverse_array':
+D:/Coursat/Embedded/learn-in-depth.Kirollos/Eclipse Workspace/Reverse_array.c/Debug/../Reverse_array.c:18:(.text+0xb3): undefined reference to `len'
+collect2.exe: error: ld returned 1 exit status
+
+05:41:59 Build Failed. 1 errors, 4 warnings. (took 324ms)
+
