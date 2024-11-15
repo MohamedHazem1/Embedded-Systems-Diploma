@@ -1,0 +1,7 @@
+21:47:52 **** Incremental Build of configuration Debug for project Assignment 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Task31.o "..\\Task31.c" 
+gcc -o "Assignment 3.exe" Task31.o 
+
+21:47:52 Build Finished. 0 errors, 0 warnings. (took 388ms)
+

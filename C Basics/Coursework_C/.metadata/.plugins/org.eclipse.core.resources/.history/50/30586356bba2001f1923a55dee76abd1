@@ -1,0 +1,26 @@
+/*
+ * Task31.c
+ *
+ *  Created on: Nov 14, 2024
+ *      Author: Mohamed Hazem
+ */
+
+#include "stdio.h"
+
+int main(){
+	printf("---------This Program to calculate the sum of multidimensional matrices---------\n\n");
+	int a[1][1];
+	int num=0;
+	for(int i=0;i>=2;i++){
+		for(int j=0;j>=2;j++){
+			printf("Enter a[%d][%d]=\t",i,j);
+			a[i][j]=scanf("%d",&num);
+		}
+	}
+/*	printf("-------------------");
+	printf(a[0][0]);
+	printf(a[0][1]);
+	printf(a[1][0]);
+	printf(a[1][1]);*/
+	return 0;
+}

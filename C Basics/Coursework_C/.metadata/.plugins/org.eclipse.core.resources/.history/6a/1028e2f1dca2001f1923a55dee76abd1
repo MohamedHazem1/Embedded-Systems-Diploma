@@ -1,0 +1,27 @@
+/*
+ * task3-2.c
+ *
+ *  Created on: Nov 14, 2024
+ *      Author: Mohamed Hazem
+ */
+#include "stdio.h"
+
+
+int main(){
+/*
+	printf("THIS PROGRAM TO CALCULATE THE AVERAGE \n\n\n");
+	int n=0;
+	int a[];
+	printf("Enter Number");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&n);
+	for (int i=1;i==n;i++){
+		printf("Enter Number  = \t");
+		scanf("%e",&a[i]);
+	}
+*/
+	int arr[][3]={{5,4},{6,4,1},{5}};
+	printf("%d\n",sizeof(arr)/4);
+	return 0;
+}
+

@@ -1,0 +1,30 @@
+/*
+ * task3-2.c
+ *
+ *  Created on: Nov 14, 2024
+ *      Author: Mohamed Hazem
+ */
+#include "stdio.h"
+
+
+int main(){
+/*
+	printf("THIS PROGRAM TO CALCULATE THE AVERAGE \n\n\n");
+	int n=0;
+	int a[];
+	printf("Enter Number");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&n);
+	for (int i=1;i==n;i++){
+		printf("Enter Number  = \t");
+		scanf("%e",&a[i]);
+	}
+*/
+	char str1[]="abcd";
+	char str2[]="abcd";
+	if(str1==str2){
+		printf("11111111");
+	}else{printf("22222222");}
+	return 0;
+}
+
